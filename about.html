@@ -8,20 +8,20 @@
     <!-- Open Graph -->
     <meta property="og:title" content="About Us | Respitality">
     <meta property="og:description" content="Learn about Respitality, our mission, and our relationship with Alternatives in providing dedicated respite care.">
-    <meta property="og:image" content="https://respitality.pejji.com/assets/images/about_conversation.webp">
-    <meta property="og:url" content="https://respitality.pejji.com/about.html">
+    <meta property="og:image" content="https://respitality.ca/assets/images/about_conversation.webp">
+    <meta property="og:url" content="https://respitality.ca/about.html">
     <meta property="og:type" content="website">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
     <!-- GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9YD1PL4LK"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{RESPITALITY_GA4_ID}}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-P9YD1PL4LK');
+      gtag('config', '{{RESPITALITY_GA4_ID}}');
     </script>
     <!-- Main StyleSheet -->
     <link rel="stylesheet" href="css/styles.css">
@@ -118,8 +118,8 @@
                 </div>
                 <div class="footer-links">
                     <h4>Contact</h4>
-                    <p class="footer-text" style="margin-bottom: 8px;">hello@respitality.org</p>
-                    <p class="footer-text">1-800-RESPITALITY</p>
+                    <p class="footer-text" style="margin-bottom: 8px;">{{RESPITALITY_CONTACT_EMAIL}}</p>
+                    <p class="footer-text">{{RESPITALITY_PHONE_NUMBER}}</p>
                 </div>
             </div>
             <div class="footer-bottom">
